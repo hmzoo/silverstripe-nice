@@ -56,7 +56,8 @@ body {
 .typography h4,
 .typography h5,
 .typography h6 {
-    font-family: "CamboRegular", Georgia, "Times New Roman", Times, serif; /* This references one of the custom @font-face fonts - the other fonts that are referenced are fallbacks for browsers that don't support @fontface */
+ /* font-family:  "CamboRegular", Georgia, "Times New Roman", Times, serif; /* This references one of the custom @font-face fonts - the other fonts that are referenced are fallbacks for browsers that don't support @fontface */
+    font-family: "arial", "CamboRegular", Georgia, "Times New Roman", Times, serif;
     font-weight: normal;
     margin-bottom: 10px;
     color: #444;
@@ -122,9 +123,12 @@ body {
     border-spacing: 0; /* The border-spacing property sets the distance between the borders of adjacent cells - acts as a backup to border-collapse: collapse */
     margin: 0 0 10px;
     text-align: left;
+    max-width: 100%;
+    width:100%;
+    empty-cells: show;
 }
   .typography table tr:nth-child(even) {
-      background-color: #ededed
+      background-color: #ffffff
   }
   .typography table tr.even,
   .typography table th,

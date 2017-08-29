@@ -4,7 +4,7 @@
 		<% loop $Children %>
 			<li class="$LinkingMode">
 				<a href="$Link" class="$LinkingMode" title="Go to the $Title.XML page">
-					<span class="arrow">&rarr;</span>
+					<span class="arrow">&gt;</span>
 					<span class="text">$MenuTitle.XML</span>
 				</a>
 
